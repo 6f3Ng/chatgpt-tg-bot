@@ -1,0 +1,5 @@
+revChatGPT
+python-socks
+python-socks[asyncio]
+aiodns
+telethon
