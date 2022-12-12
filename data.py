@@ -8,8 +8,10 @@ sock_server = (python_socks.ProxyType.SOCKS5, '127.0.0.1', 1080) # tg proxy
 # For the chatgpt config please go here:
 # https://github.com/acheong08/ChatGPT/wiki/Setup
 config = {
-    # "ema#il": "<YOUR_EMAIL>",
+    # "email": "<YOUR_EMAIL>",
     # "password": "<YOUR_PASSWORD>",
     # "session_token": "<YOUR_SESSIO_TOKEN>", # token保存在文件chatgpt_session.txt中
+    # "cf_clearance": "<CLOUDFLARE_TOKEN>",
+    # "user_agent": "<USER_AGENT>",
     # "proxy": "socks5://127.0.0.1:1080"
 }
