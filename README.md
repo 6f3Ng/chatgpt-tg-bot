@@ -12,7 +12,7 @@ python3 chatGPT.py
 ```
 
 ## 使用
-1. 如果没有在`chatgpt_session.txt`文件中配置session，则先发送`/session cf_clearance|session_token|user_agent`设置，注意，获取session的ip要与机器人部署的ip保持一致
+1. 如果没有在`chatgpt_session.txt`文件中配置session（格式`cf_clearance|session_token|user_agent`），则先发送`/session cf_clearance|session_token|user_agent`设置，注意，获取session的ip要与机器人部署的ip保持一致
 2. 发送`/Reset Thread`重置会话
 3. 正常聊天，`/try again`不太好用
 4. 结束发送`/Log out`清除缓存
@@ -20,3 +20,7 @@ python3 chatGPT.py
 ## todo
 - [ ] 公共session和私人session可分开配置(做不了了，加cf限制了)
 - [ ] 配置文件独立出来（再说吧看心情）
+
+## 参考
+> [https://github.com/acheong08/ChatGPT/wiki](https://github.com/acheong08/ChatGPT/wiki)   
+> [https://docs.telethon.dev/en/stable/index.html](https://docs.telethon.dev/en/stable/index.html)
