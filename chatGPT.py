@@ -40,11 +40,11 @@ async def send_end(event):
 
 @bot.on(events.NewMessage(pattern='(?:/session.*)'))
 async def set_session(event):
-    sessionStrs = event.text[8:].split("|")
+    sessionStrs = event.text[9:].split("|")
     length = len(sessionStrs)
     if length == 3:
         with open("chatgpt_session.txt", 'w') as f:
-            f.write(event.text[8:])
+            f.write(event.text[9:])
         config["cf_clearance"] = sessionStrs[0]
         config["session_token"] = sessionStrs[1]
         config["user_agent"] = sessionStrs[2]
