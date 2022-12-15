@@ -5,6 +5,9 @@
 ### 20221213
 20221212 chatgpt增加了cf防护，现在需要保证`cf_clearance|session_token|user_agent|ip`四个参数完全一致才能正常访问，所以做了一版更新
 
+### 20221215
+已凉凉
+
 ## 启动
 ```shell
 pip3 install -r requirements.txt
